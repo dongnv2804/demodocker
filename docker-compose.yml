@@ -1,0 +1,8 @@
+version: "3.8"
+
+services: 
+  app: 
+    image: "demodocker/node:v2"
+    ports: 
+      - "8000:3000"
+    restart: unless-stopped
